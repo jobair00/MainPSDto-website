@@ -1,0 +1,934 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Global Css COde End*/
+
+.banner {
+    background: url(../images/bannerbg.png) no-repeat center;
+    padding: 60px 0;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.navbar {
+    background: none;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fde52c;
+}
+
+.nav-item {
+    padding-top: 10px;
+}
+
+.fa {
+    color: white;
+    font-size: 20px;
+}
+
+
+.arrow-item {
+    padding: 0;
+    margin-top: 200px;
+}
+
+.arrow-item li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 5px;
+}
+
+.arrow-item li {
+
+    list-style: none;
+    display: inline;
+    margin: 0 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.arrow-item li a {
+    text-decoration: none;
+    color: #fde52c;
+}
+
+.arrow-item li :hover {
+    color: white;
+}
+
+.fa-long-arrow-left {
+    margin-right: 10px;
+    font-size: 25px;
+    color: #fde52c;
+}
+
+.fa-long-arrow-right {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #fde52c;
+}
+
+.first-arrow {
+    position: relative;
+}
+
+.first-arrow::after {
+    position: absolute;
+    content: "/";
+    top: 0;
+    color: #fde52c;
+    margin-left: 3px;
+    font-size: 20px;
+}
+
+.banner-content {
+    padding: 60px 0;
+}
+
+.banner-right {
+    background: url(../images/shape.png) no-repeat center;
+    padding: 87px 27px;
+
+}
+
+.banner-right h2 {
+    font-size: 51px;
+    font-weight: 700;
+    color: white;
+    width: 50%;
+    margin-bottom: 35px;
+    line-height: 50px;
+}
+
+.banner-right a:hover {
+    color: #fde52c;
+}
+
+.banner-right a {
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    margin-left: 39px;
+
+}
+
+.modal-content {
+    margin-top: 150px;
+}
+
+.modal-img {
+    display: block;
+    width: 220px;
+    height: 220px;
+    line-height: 200px;
+    margin: -100px auto 50px;
+    border-radius: 100%;
+    background: white;
+    box-shadow: 3px 5px 25px #eee;
+    text-align: center;
+
+}
+
+.modal-body h2 {
+    font-size: 32px;
+    color: #f10b0bc9;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.modal-body p {
+    font-size: 17px;
+    color: ;
+    text-align: center;
+    font-weight: 500;
+}
+
+.btn-modal {
+    padding: 13px 30px;
+    background: #f10b0bc9;
+    border-radius: 5px;
+    display: block;
+    margin: 50px auto;
+    color: white;
+    border: 1px solid #f10b0bc9;
+}
+
+
+
+.take-away {
+    padding: 60px 0;
+    position: relative;
+}
+
+.take-away::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 250px;
+    top: 0;
+    right: 270px;
+    background: #fde52c;
+}
+
+.takeaway-left h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #002e5b;
+    text-transform: uppercase;
+}
+
+
+.takeaway-left h3 {
+    color: #666666;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 15px 0;
+    font-weight: 300;
+}
+
+.takeaway-left p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    font-weight: 500;
+
+
+}
+
+.takeaway-left a {
+    font-size: 19px;
+    color: #002e5b;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+.constructing {
+    padding: 60px 0;
+    background: #f4f4f4;
+}
+
+.constructing img {
+    display: block;
+    margin-top: 60px;
+}
+
+.constructing-right h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #002e5b;
+    text-transform: uppercase;
+}
+
+
+.constructing-right h3 {
+    color: #666666;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 15px 0;
+    font-weight: 300;
+}
+
+.constructing-right p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    font-weight: 500;
+
+
+}
+
+.constructing-right a {
+    font-size: 19px;
+    color: #002e5b;
+    font-weight: 600;
+
+}
+
+
+
+
+.contact-area {
+    padding: 30px 0;
+    background: #002e5b;
+}
+
+.contact-area p {
+    text-align: left;
+    color: white;
+    font-size: 21px;
+}
+
+.contact-area .btn-contact {
+    float: right;
+    padding: 10px 20px;
+    color: white;
+    background: #fde52c;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    color: #002e5b;
+}
+
+.btn-contact:hover {
+    cursor: pointer;
+    background: white;
+    color: #333333;
+}
+
+
+
+
+.service {
+    padding: 60px 0;
+
+}
+
+.service h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #002e5b;
+    text-transform: uppercase;
+}
+
+.service p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    color: #333333;
+    width: 57%;
+    margin: 0 auto;
+}
+
+.service-box {
+    margin-top: 50px;
+    text-align: left;
+}
+
+.service-box img {
+    width: 380px;
+}
+
+.service-box h3 {
+    margin: 20px auto 15px;
+    font-size: 21px;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+    width: 100%;
+}
+
+
+
+
+.funfact {
+    padding: 60px 0;
+    background: #002e5b;
+}
+
+
+.funfact h2 {
+    font-size: 37px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.funfact p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.consulting {
+    padding: 60px 0;
+    position: relative;
+
+}
+
+.consulting::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 250px;
+    top: 0;
+    left: 230px;
+    background: #fde52c;
+}
+
+.consulsting-right h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+
+    color: #002e5b;
+    text-transform: uppercase;
+}
+
+.consulsting-right h3 {
+    color: #666666;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 15px 0;
+    font-weight: 300;
+}
+
+.consulsting-right p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.consulsting-right a {
+    font-size: 19px;
+    color: #002e5b;
+    font-weight: 600;
+}
+
+
+
+.testimonial {
+    background: #002e5b;
+    padding: 60px 0;
+}
+
+.testimonial i {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.testimonial p {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    width: 75%;
+    margin: 40px auto;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.testimonial h4 {
+    text-align: center;
+    color: white;
+    margin: 30px;
+
+}
+
+
+
+.contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31px;
+    color: black;
+    font-weight: 600;
+}
+
+.contact-content p {
+    width: 55%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    margin: 0 auto;
+}
+
+.contact-box {
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 0px 0px 12px #b9b9b9;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #002e5b;
+    text-align: left;
+}
+
+.card-body i {
+    display: block;
+    text-align: left;
+    color: #002e5b;
+    font-size: 20px;
+}
+
+.card-body p {
+    width: 100%;
+    text-align: left;
+    color: #002e5b;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+footer {
+    padding: 20px 0 10px;
+    background: #002e5b;
+}
+
+.left-footer p {
+    color: #fff;
+}
+
+span a {
+    color: #fde52c;
+}
+
+.social-icon {
+    text-align: right;
+}
+
+.social-icon ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-icon ul li {
+    display: inline;
+    margin-left: 10px;
+
+}
+
+.social-icon ul li a {
+    color: #fff;
+
+}
+
+.social-icon a:hover {
+    color: #fde52c;
+}
+
+
+/* Media Query For Mobile */
+@media (min-width: 320px) and (max-width: 500px) {
+    .banner-content {
+        padding: 0;
+    }
+
+    .arrow-item {
+        display: block;
+        padding: 0;
+        margin: 40px auto 20px;
+        text-align: center;
+    }
+
+    .banner-left {
+        padding: 0;
+    }
+
+
+    .banner-right {
+        background: none;
+        padding: 0;
+    }
+
+    .banner-right h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner-right a {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+
+    .take-away {
+        position: relative;
+        padding: 0;
+        text-align: center;
+        display: block;
+    }
+
+    .takeaway-left {
+        padding: 0;
+    }
+
+    .take-away::before {
+        background: #fff;
+    }
+
+    .takeaway-left h2 {
+        margin: 20px auto;
+    }
+
+    .takeaway-left a {
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .constructing {
+        padding: 0;
+    }
+
+    .constructing-left {
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .constructing-right {
+        padding: 0;
+        text-align: center;
+    }
+
+    .constructing-right a {
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .contact-area p {
+        text-align: center;
+    }
+
+    .contact-area .btn-contact {
+
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .contact-area .col-md-8 {
+        padding: 0;
+    }
+
+    .contact-area .col-md-4 {
+        padding: 0;
+    }
+
+
+    .service .col-md-12 {
+        padding: 0;
+    }
+
+    .service h2 {
+        margin: 20px auto;
+    }
+
+    .service p {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .service-box {
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .service-box p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .funfact {
+        padding: 0;
+
+    }
+
+    .funfact .col-md-3 {
+        padding: 0;
+    }
+
+    .consulting {
+        text-align: center;
+    }
+
+    .consulting::before {
+        position: absolute;
+        content: "";
+        background: #fff;
+    }
+
+    .consulting {
+        padding: 10px 0;
+        position: relative;
+        text-align: center;
+    }
+
+    .contact {
+        padding: 10px 0;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    .card-body {
+        text-align: center;
+        display: block;
+
+    }
+
+    .card-body h5 {
+        text-align: center;
+    }
+
+    .card-body i {
+        text-align: center;
+    }
+
+    .card-body p {
+        text-align: center;
+    }
+
+    .left-footer p {
+        text-align: center;
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+}
+
+
+/* Media Query For Tab */
+@media (min-width: 500px) and (max-width: 768px) {
+
+    .banner-content {
+        padding: 0;
+    }
+
+    .arrow-item {
+        display: block;
+        padding: 0;
+        margin: 40px auto 20px;
+        text-align: center;
+    }
+
+    .banner-left {
+        padding: 0;
+    }
+
+
+    .banner-right {
+        background: none;
+        padding: 0;
+    }
+
+    .banner-right h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .banner-right a {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+
+    .take-away {
+        position: relative;
+        padding: 0;
+        text-align: center;
+        display: block;
+    }
+
+    .takeaway-left {
+        padding: 0;
+    }
+
+    .take-away::before {
+        background: #fff;
+    }
+
+    .takeaway-left h2 {
+        margin: 20px auto;
+    }
+
+    .takeaway-left a {
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .constructing {
+        padding: 0;
+    }
+
+    .constructing-left {
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .constructing-right {
+        padding: 0;
+        text-align: center;
+    }
+
+    .constructing-right a {
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .contact-area p {
+        text-align: center;
+    }
+
+    .contact-area .btn-contact {
+
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .contact-area .col-md-8 {
+        padding: 0;
+    }
+
+    .contact-area .col-md-4 {
+        padding: 0;
+    }
+
+
+    .service .col-md-12 {
+        padding: 0;
+    }
+
+    .service h2 {
+        margin: 20px auto;
+    }
+
+    .service p {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .service-box {
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    .service-box p {
+        text-align: center;
+        width: 100%;
+    }
+
+    .funfact {
+        padding: 0;
+
+    }
+
+    .funfact .col-md-3 {
+        padding: 0;
+    }
+
+    .consulting {
+        text-align: center;
+    }
+
+    .consulting::before {
+        position: absolute;
+        content: "";
+        background: #fff;
+    }
+
+    .consulting {
+        padding: 10px 0;
+        position: relative;
+        text-align: center;
+    }
+
+    .contact {
+        padding: 10px 0;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+    .card-body {
+        text-align: center;
+        display: block;
+
+    }
+
+    .card-body h5 {
+        text-align: center;
+    }
+
+    .card-body i {
+        text-align: center;
+    }
+
+    .card-body p {
+        text-align: center;
+    }
+
+    .left-footer p {
+        text-align: center;
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+}
+
+
+/* Media Query For Notebook */
+@media (min-width: 768px) and (max-width: 990px) {}
